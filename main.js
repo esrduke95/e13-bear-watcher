@@ -1,1 +1,9 @@
-console.log('i am linked now');
+// console.log('i am linked now');
+
+let bears = [];
+
+const printToDom = (divId, textToPrint) => {
+    const selectedDiv = document.getElementById(divId);
+    selectedDiv.innerHTML = textToPrint;
+};
+
