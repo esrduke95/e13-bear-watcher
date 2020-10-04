@@ -1,9 +1,8 @@
-// console.log('i am linked now');
+import { addBearForm, submitBtn } from './bearForm.js';
 
-let bears = [];
-
-const printToDom = (divId, textToPrint) => {
-    const selectedDiv = document.getElementById(divId);
-    selectedDiv.innerHTML = textToPrint;
+const init = () => {
+    addBearForm();
+    submitBtn();
 };
 
+init();
