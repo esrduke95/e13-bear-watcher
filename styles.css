@@ -6,3 +6,31 @@
 body {
     background-color: aliceblue;
 }
+
+#formContainer {
+    padding: 10px;
+    background-color: blue;
+    width: 750px;
+}
+
+#formWrapper {
+    align-content: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+#bears {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-around;
+}
+.card {
+    margin: 15px;
+}
