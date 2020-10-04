@@ -4,13 +4,14 @@
 }
 
 body {
-    background-color: aliceblue;
+    background-color: #3A4E48;
 }
 
 #formContainer {
     padding: 10px;
-    background-color: blue;
+    background-color: #8B9D83;
     width: 750px;
+    color: white;
 }
 
 #formWrapper {
@@ -21,15 +22,19 @@ body {
 
 h1 {
     text-align: center;
+    font-family: 'Sniglet', cursive;
 }
 
 h3 {
     text-align: center;
+    font-family: 'Sniglet', cursive;
 }
 #bears {
     display: flex;
     flex-flow: row wrap;
     align-content: space-around;
+    background-color: #8B9D83;
+    margin-top: 10px;
 }
 .card {
     margin: 15px;
